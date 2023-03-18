@@ -1,0 +1,15 @@
+{
+  "name": "my-express-server",
+  "version": "1.0.0",
+  "description": "My first express server. 227",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iori",
+  "license": "ISC",
+  "dependencies": {
+    // 227 6:10
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,103 @@
+// alert("Hello");
+// alert("World");
+
+// prompt("What is your name?");
+// var myName = "Iori";
+// // alert("myName");これは×
+// alert(myName);
+// var yourName =　prompt("What is your name?");
+// alert("My name is " + myName + " ,welcome to my course " + yourName + "!!");
+
+// var gamelevel = 1;
+// gamelevel = 2;
+// gamelevel = 3;
+// alert("Your level is currently: " + gamelevel);
+
+// var message = "Hello";
+// var name = "Angela";
+
+// // Challenge
+// alert(message + "there, "+ " " + name);
+
+// var name = "Angela";
+// name.length;
+
+// Challenge
+// var current = "182";
+// current.length;
+
+// var remain = "-42";
+// remain.length;
+
+
+
+/*vhkbkbjkbk
+bjknbkjn*/  
+
+// var tweet = prompt("Compose your tweet:");
+// var tweetCount = tweet.length;
+// alert("You have written" + tweetCount + "characters, you have" + (140 - tweetCount) + "charactes left.");
+
+// var name = "Angela";
+// name.slice(0,3);
+
+
+
+// Challenge
+
+// 😭My answer
+// var tweet = prompt("Compose your tweet:");
+// var tweetCount = tweet.length;
+
+// alert("You have written" + tweetCount + "you need to delete" + (140 - tweetCount) + "charactes.");
+
+// tweet.slice(0,140)
+
+// 👩‍🎓Answer
+// var tweet = prompt("Compose your tweet:");
+// var tweetUnder140 = tweet.slice(0,140);
+// alert(tweetUnder140);
+
+// var name = "Angela";
+// name = name.toUpperCase();
+// name = name.toLowerCase();
+
+// Challenge 最初の字だけcapital letter
+//  prompt("What is your name?");
+// var name = prompt;
+// name = name.toUpperCase(0,1);
+// name.slice(0,1);
+// alert("Hello" + name);
+
+
+// 1 Create a var that stores the name that user enters via prompt.
+var name = prompt("What is your name?");
+
+// 2 Capitalise the first letter of their name/
+
+//a isolate the first character
+var firstChar = name.slice(0,1);
+
+//b turn the first character to toUpperCase
+var upperCaseFirstChar = firstChar.toUpperCase();
+
+//c isolate the rest of the name
+var restOfName = name.slice(1,name.length);
+
+// d Change the rest of the name to lower case 元に戻せばいい
+var restOfName = restOfName.toLowerCase();
+
+//e contactenate the first character with the rest of the name
+var capitalisedName =  upperCaseFirstChar +  restOfName;
+// 3 We use the capitalized version of their name to greet them using an alert/
+alert("Hello" + capitalisedName);
+
+
+
+var dogAge = prompt("How old is your dog?");
+
+var humanAge = ((dogAge - 2)*4) + 21;
+
+alert("Your dog is" + humanAge + " years old in human years.");
+
+

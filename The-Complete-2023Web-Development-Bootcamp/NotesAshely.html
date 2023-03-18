@@ -1,0 +1,257 @@
+<!-- boiler plate -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<!-- contains the wireframe for HTML 5 to write the boiler plate type ! and hit enter-->
+
+
+<!-- adding images in to HTML -->
+<img src="" alt="">
+<!-- src indicates source so where is the image? alt indicates the message that displays if the image doesn't display! it's also part of HTML accessability and used by screen readers-->
+
+
+<!-- anchor tags are used to hyperlink things inside HTML -->
+<a href=""></a>
+<!-- between the tywo anchor tags would be the text that you wish to link from example: contact us : the the href would be wherre the anchor trag points to example http://www.google.com -->
+
+
+<!-- line break -->
+<br>
+<!-- this will create a line break in the browser use to push text or something to the line below, can be stacked-->
+
+
+<!-- horizointal rule -->
+<hr>
+<!-- this will create a horizontal line stratching across the entire screen -->
+
+
+<!-- div -->
+<div></div>
+<!-- this is a block element that contains anything in HTML form they can be manipulated by css if sometghing is wrapped by a div but no styling is applied in CSS then it will just make the contents take their own line as this is a bloc element! -->
+
+
+<!-- span -->
+<span></span>
+<!-- same as block but this is an inline element so will not require moving the contants to their own line -->
+
+
+<!-- h1, h2, h3, h4 ,h5, h6 -->
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+<!-- these are the heading tags h1 largest (should only be used once per page!) and h6 smallest -->
+
+
+<!-- paragraph -->
+<p></p>
+<!-- paragraph tag is a block element as is a basic container mostly used for text -->
+
+
+<!-- "bold" - bring attention element -->
+<b></b>
+<!-- any content between these tags will be made bold -->
+
+
+<!-- subscript -->
+<sub></sub>
+<!-- render text below the baseline used in chemical formulas like H2O where the 2 is smaller and display lower than the other text -->
+
+
+<!-- superscript -->
+<sup></sup>
+<!-- will make text appear above the baseline this can be used with subscript to display fractions 1/2 1 would be sup and 2 would be sub -->
+
+
+<!-- entity codes -->
+&gt;
+<!-- would display a greater than symbol example these are used instead of using the special HTML characters such as the greater or lesser than sign if they are needed use entity codes -->
+
+
+<!-- main element -->
+<main></main>
+<!-- this ement is the same as a div but should be used to help with the readability of the code and for accessibility features -->
+
+
+<!-- navbar -->
+<nav></nav>
+<!-- this is the same as a div but the navigation bar should be placed inside same reasons as main -->
+
+
+<!-- section element -->
+<section></section>
+<!-- same as a div but used to hold the section of content and help divide the content on a given web page also the same reasons to use as main -->
+
+
+<!-- article element -->
+<article></article>
+<!-- used to contain selkf contained content such as a new piece or weather update area same reasons again as main -->
+
+
+<!-- aside element -->
+<aside></aside>
+<!-- wrap side bar and callout boxes -->
+
+
+<!-- header element -->
+<header></header>
+<!-- same as a div used to container heading content same as main -->
+
+
+<!-- footer element -->
+<footer></footer>
+<!-- same as div the content in here should be at the foot of the page same as main -->
+
+
+<!-- time element -->
+<time></time>
+<!-- same as div used to wrap dates and times in a container same as main -->
+
+
+<!-- ul ol li -->
+<ol>
+    <li>list item</li>
+</ol>
+<ul>
+    <li>list item</li>
+</ul>
+<!-- ol refers to an orderd list such as 1. 2. 3. an ul is an unordered list which will use bullet points instead of number and li denotes the list item these are nested in either ul's or ol's between the li's is where you place the list item -->
+
+
+<!-- emmet shortcuts / nav>ul>li*4>a creates the list below -->
+<nav>
+    <ul>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+    </ul>
+</nav>
+<!-- special shortcut for emmet this will create a nav unordered list with 5 anchor list items -->
+<!-- review cheat sheets for emmet will be perfect for often used items such as above -->
+
+
+<!-- tables -->
+<table></table>
+<thead>head of a row very top!</thead>
+<tr>creates a row which would create column height</tr>
+<th>creates a title at the beginning of each row</th>
+<td>table data cell added within a tr to create individual cells in a row </td>
+<tbody>main content of a table</tbody>
+<tfoot>create the foot for the row</tfoot>
+
+<th rowspan=""></th>
+<!-- (th just an example) rowspan is used to denote how many rows you want a th to take up can be used with any table element -->
+<th colspan=""></th>
+<!-- (th just an example) how many column cells you want to be taken up can be used with any table element -->
+<!-- tables can be used for a full website layout of just basic items -->
+
+
+<!-- form elements -->
+<form action=""></form>
+<!-- creates a form action dictates where the data should be sent once the form is submitted!-->
+
+<!-- form input do not skip labels! See below-->
+<input>
+<input type="text">
+<input type="password">
+<input type="radio">
+<!-- radio buttons require the same name attribute to be given so only 1 can be selected! -->
+<input type="color">
+<input type="range">
+<input type="number">
+<input type="time">
+<input type="email">
+<input type="button">
+<input type="reset">
+<!-- reset the form data -->
+<input type="submit">
+<!-- submit the form -->
+
+<input type="text" placeholder="">
+<!-- placeholder denotes the placeholder text that will be associated to the given input -->
+
+<label for="cheese">do you like cheese</label>
+<input type="checkbox" name="cheese" id="cheese">
+<!-- label are important to forms they are linked to whatever input you require throught the for and id (unique) -->
+
+<!-- button -->
+<button></button>
+<!-- buttons can be used generally or within a form default action in a form is submit -->
+
+<!-- type attribute -->
+<button type="button"></button>
+<!-- adding type and defining will change the action the button performs -->
+
+<!-- value -->
+<input type="submit" value="click me!!!">
+<!-- used to change the text within something like a submit button the text on the submit button would be changed to click me!!!-->
+<!-- the more important function of value is the data that the individual input would send when the form is sent example: sizes: xs s m each one would require a unique value or you wouldn't be able to tell which one was selected! -->
+
+<!-- name attribute -->
+<input type="text" placeholder="username" name="username">
+<!-- name attribute is used by the backend to recognise whats being asked for -->
+
+<!-- create a search on another site -->
+<form action="https://www.reddit.com/search">
+    <input type="text" name="q">
+    <!-- the name attribute is extremerly iportnat here as it must match the name reddit use in this case q! -->
+    <button>Search Reddit</button>
+</form>
+<!-- search 2 this would search google they use the same name!-->
+<form action="https://www.google.com/search">
+    <input type="text" name="q">
+    <!-- the name attribute is extremerly iportnat here as it must match the name reddit use in this case q! -->
+    <button>Search Google</button>
+</form>
+<!-- submitting a form doesn't require a button! You can just press enter -->
+
+<!-- dropdown menu -->
+<select name="" id="">
+    <option value=""></option>
+    <option value=""></option>
+</select>
+<!-- works much in the same way a ol / ul / li does in that the select element contains the option element -->
+<!-- either a placeholder item without a value can be placed inside or you can simply type selected on the option that you want to be the default -->
+
+<!-- text area -->
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<!-- this is expandable by users and can be customised with cols="" and rows="" -->
+
+<!-- form validations required -->
+<input type="text" required>
+<!-- this is a basic part of the browser validation before going to server side validation -->
+<label for="username"></label>
+<input type="text" minlength="5" maxlength="20">
+<!-- additional validations include minimum and maximum input lengths this will notify the user that it requires a min length of 5 characters and 20 characters -->
+<label for="number"></label>
+<input type="number" min="5" max="20">
+<!-- validation for min and max for numerical values -->
+<label for="email"></label>
+<input type="email" pattern="">
+<!-- pattern attribute more depth later allow for finer control inc character / special symbols etc used in things like email where an @ will be required -->
+
+
+first and last name required and text select a race is p email required drop down
